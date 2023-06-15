@@ -15,7 +15,7 @@
 
 <div class="preview-area">
   <img [src]="imageURL" alt="">
-  <h1>{{postTitle}}</h1>
+  <h1><span [class.add-background] = "addBackground">{{postTitle}}</span></h1>
   <p>{{postDetails}}</p>
   <a [href]="postURL" target="_blank" [style.display] = "postURL ? 'block' : 'none'">More Details</a>
 
