@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'task';
+  postTitle!:string;
+  postDetails!:string;
+  imageURL!:string;
+  postURL!:string;
+  addBackground!:boolean;
+  
 }
